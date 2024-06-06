@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Libre Franklin", sans-serif;
+}
+.ping{
+  margin-left: 645px;
+  margin-top: 50px;
+}
+.text h1{
+  display: flex;
+  flex-direction: row;
+margin-left: 450px;
+font-size: 45px;
+font-weight: 300;
+color: hsl(0, 0%, 59%);
+margin-top: 20px;
+}
+.text p{
+  color: black;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.text h2{
+  margin-left: 570px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.input input{
+  margin-left: 400px;
+  width: 370px;
+  height: 50px;
+  border-radius: 50px;
+  padding-left: 20px;
+  border: 2px solid hsl(223, 100%, 88%);
+  margin-top: 30px;
+  position: relative;
+}
+.input ::placeholder{
+  color: hsl(223, 100%, 88%);
+}
+.input p{
+  color: red;
+}
+.error-text{
+  margin-left: 420px;
+  opacity: 0;
+}
+.button{
+  margin-left: 800px;
+  margin-top: -70px;
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  background-color:hsl(223, 87%, 63%);
+  color: white;
+  border: none;
+}
+.main-image img{
+  height: 45%;
+  width: 45%;
+  margin-left: 365px;
+  margin-top: 40px;
+}
+.anchors{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.copyright{
+  margin-left: 600px;
+  font-size: 13px;
+margin-top: 5px;
+}
+@media only screen and (max-width:1024px){
+  .ping{
+    margin-left: 460px;
+  }
+  .text h1{
+  margin-left: 265px;
+  }
+  .text h2{
+    margin-left: 385px;
+  }
+  .input input{
+    margin-left: 225px;
+}
+.error-text{
+  margin-left: 235px;
+}
+  .button{
+    margin-left: 615px;  
+}
+.main-image img{
+  height: 55%;
+  width: 55%;
+  margin-left: 240px;
+}
+.copyright{
+  margin-left: 400px;
+}
+}
+@media only screen and (max-width:768px){
+  .ping{
+    margin-left: 340px;
+  }
+  .text h1{
+    margin-left: 145px;
+    }
+    .text h2{
+      margin-left: 265px;
+    }
+    .input input{
+      margin-left: 105px;
+  }
+  .error-text{
+    margin-left: 115px;
+  }
+  .button{
+    margin-left: 495px;  
+}
+.main-image img{
+  height: 65%;
+  width: 65%;
+  margin-left: 120px;
+}
+.copyright{
+  margin-left: 260px;
+}
+}
+@media only screen and (max-width:425px){
+ 
+  .ping{
+    margin-left: 140px;
+    margin-top: 120px;
+  }
+  .ping img{
+    width: 50%;
+    height: 50%;
+  }
+  .text h1{
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+  }
+  .text p{
+    margin-right: -15px;
+  }
+  .text h2{
+    margin-left: 95px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .input input{
+    margin-left: 30px;
+    width: 370px;
+    height: 70px;
+    border-radius: 50px;
+    padding-left: 40px;
+    margin-top: 30px;
+  }
+  .input ::placeholder{
+    color: hsl(223, 100%, 88%);
+  }
+  .input p{
+    color: red;
+  }
+  .error-text{
+    margin-left: 80px;
+    opacity: 0;
+  }
+  .button{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 370px;
+    height: 70px;
+  }
+  .main-image img{
+    height: 75%;
+    width: 75%;
+    margin-left: 45px;
+    margin-top: 100px;
+  }
+  .anchors{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .copyright{
+    margin-left: 100px;
+    font-size: 13px;
+  margin-top: 15px;
+  } 
+}
+@media only screen and (max-width:375px){
+  .ping{
+    margin-left: 125px;
+    margin-top: 100px;
+  }
+  .ping img{
+    width: 50%;
+    height: 50%;
+  }
+  .text h1{
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 30px;
+  }
+  .text p{
+    margin-right: -15px;
+  }
+  .text h2{
+    margin-left: 75px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .input input{
+    margin-left: 20px;
+    width: 330px;
+    height: 60px;
+    border-radius: 50px;
+    padding-left: 40px;
+    margin-top: 30px;
+  }
+  .input ::placeholder{
+    color: hsl(223, 100%, 88%);
+  }
+  .input p{
+    color: red;
+  }
+  .error-text{
+    margin-left: 80px;
+    opacity: 0;
+  }
+  .button{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 330px;
+    height: 60px;
+  }
+  .main-image img{
+    height: 75%;
+    width: 75%;
+    margin-left: 45px;
+    margin-top: 100px;
+  }
+  .anchors{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .copyright{
+    margin-left: 80px;
+    font-size: 13px;
+  margin-top: 15px;
+  } 
+}
